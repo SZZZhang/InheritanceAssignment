@@ -1,25 +1,30 @@
+package Main;
+
 import javafx.scene.paint.Color;
 
-public class Function {
+public abstract class Function implements Drawable, Calculations{
 
-    private double startDomain;
-    private double endDomain;
-    private String name;
-    private Color color;
+    private final int defaultStartDomain = 0;
+    private final int defaultEndDomain = 500;
+    private final double areaInterval = 0.1;
+
+    protected double startDomain;
+    protected double endDomain;
+    protected String name;
+    protected Color color;
 
     public Function(double x1, double x2) {
         //sets domain
-        startDomain = x1;
-        endDomain = x2;
-
+        setDomain(x1, x2);
         name = "";
-        //
         color = Color.BLACK;
     }
 
-    public String toString() {
-        return "";
+    public Function(){
+        setDomain(defaultStartDomain, defaultEndDomain);
     }
+
+    public abstract String toString();
 
     public double getStartDomain() {
         return startDomain;
@@ -49,4 +54,5 @@ public class Function {
     public void setName(String name) {
         this.name = name;
     }
+
 }
