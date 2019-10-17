@@ -1,6 +1,7 @@
 package Functions;
 
 import Main.Function;
+import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;
 
 public class Logarithm extends Function {
@@ -35,7 +36,12 @@ public class Logarithm extends Function {
     }
 
     @Override
-    public void draw(GraphicsContext gc, Function f) {
+    public void draw(Canvas canvas) {
 
+    }
+
+    @Override
+    public String toString() {
+        return null;
     }
 }

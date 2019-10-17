@@ -1,5 +1,6 @@
 package Functions;
 import Main.Function;
+import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;
 
 public class Linear extends Function {
@@ -34,6 +35,11 @@ public class Linear extends Function {
     }
 
     @Override
+    public boolean undefined(double x) {
+        return false;
+    }
+
+    @Override
     public double getArea(double xStart, double xEnd) {
         return 0;
     }
@@ -44,7 +50,7 @@ public class Linear extends Function {
     }
 
     @Override
-    public void draw(GraphicsContext gc, Function f) {
+    public void draw(Canvas canvas) {
 
     }
 }

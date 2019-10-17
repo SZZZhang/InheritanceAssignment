@@ -1,6 +1,7 @@
 package Functions;
 
 import Main.Function;
+import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;
 
 public class Arc extends Function {
@@ -40,7 +41,7 @@ public class Arc extends Function {
     }
 
     @Override
-    public void draw(GraphicsContext gc, Function f) {
+    public void draw(Canvas canvas) {
 
     }
 }
