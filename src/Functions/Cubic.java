@@ -22,8 +22,6 @@ public class Cubic extends Function {
     public String toString() {
         String equation = "";
 
-        // y = a(x - x1) ^ 3 + b(x - x1) ^ 2 + c(x - x1) + d
-
         if (a != 0) {
             if (a == -1) equation += "-";
             else if (a != 1) equation += Double.toString(a);
@@ -34,8 +32,12 @@ public class Cubic extends Function {
         }
 
         if (b != 0) {
-            if (b == -1) equation += "-";
-            else if (b != 1) equation += Double.toString(b);
+            if(a != 0){
+                if (b > 0) equation += " + ";
+                else if (b < 0) equation += " - ";
+            }
+
+            if (b != 1) equation += Double.toString(Math.abs(b));
 
             if(x1 == 0) equation += "x^2";
             else if(x1 < 0) equation += "(x + " + Double.toString(Math.abs(x1)) + ")^2";
@@ -43,8 +45,12 @@ public class Cubic extends Function {
         }
 
         if (c != 0) {
-            if (a == -1) equation += "-";
-            else if (a != 1) equation += Double.toString(a);
+            if (a != 0 || b != 0){
+                if (c > 0) equation += " + ";
+                else if (c < 0) equation += " - ";
+            }
+
+            if (c != 1) equation += Double.toString(Math.abs(c));
 
             if(x1 == 0) equation += "x";
             else if(x1 < 0) equation += "(x + " + Double.toString(Math.abs(x1)) + ")";
@@ -52,8 +58,11 @@ public class Cubic extends Function {
         }
 
         if (d != 0) {
-            if(d > 0) equation += " + " + Double.toString(Math.abs(d));
-            if(d < 0) equation += " - " + Double.toString(Math.abs(d));
+            if(a != 0 || b != 0 || c != 0) {
+                if(d > 0) equation += " + ";
+                if(d < 0) equation += " - ";
+            }
+            equation += Double.toString(Math.abs(d));
         }
 
         return equation;

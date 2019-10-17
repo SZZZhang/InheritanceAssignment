@@ -55,4 +55,5 @@ public abstract class Function implements Drawable, Calculations{
         this.name = name;
     }
 
+    public abstract boolean undefined(double x);
 }
