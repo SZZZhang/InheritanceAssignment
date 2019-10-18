@@ -4,9 +4,12 @@ import javafx.scene.paint.Color;
 
 public abstract class Function implements Drawable, Calculations{
 
-    private final int defaultStartDomain = 0;
+    private final int defaultStartDomain = -500;
     private final int defaultEndDomain = 500;
     private final double areaInterval = 0.1;
+
+    protected final double SCALE_TEXT_WIDTH = 10;
+    protected final int NUMS_ON_SCALE = 5;
 
     protected double startDomain;
     protected double endDomain;
