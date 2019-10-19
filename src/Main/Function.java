@@ -1,12 +1,13 @@
 package Main;
 
 import javafx.scene.paint.Color;
+import javafx.util.Pair;
 
-public abstract class Function implements Drawable, Calculations{
+public abstract class Function implements Drawable, Calculations {
 
-    private final int defaultStartDomain = -500;
-    private final int defaultEndDomain = 500;
-    private final double areaInterval = 0.1;
+    private final double defaultStartDomain = -200;
+    private final double defaultEndDomain = 200;
+    private final double deltaX = 1E-5;
 
     protected final double SCALE_TEXT_WIDTH = 10;
     protected final int NUMS_ON_SCALE = 5;
@@ -23,7 +24,7 @@ public abstract class Function implements Drawable, Calculations{
         color = Color.BLACK;
     }
 
-    public Function(){
+    public Function() {
         setDomain(defaultStartDomain, defaultEndDomain);
     }
 
@@ -58,5 +59,34 @@ public abstract class Function implements Drawable, Calculations{
         this.name = name;
     }
 
-    public abstract boolean undefined(double x);
+    //returns true if the function is undefined
+    public boolean undefined(double x) {
+        if (x < getStartDomain() || x > getEndDomain()) {
+            return true;
+        }
+        return false;
+    }
+
+    public double getArea(double xStart, double xEnd) {
+        double area = 0;
+        for (double currentX = xStart; currentX <= xEnd; currentX += deltaX) {
+            area += deltaX * this.val(currentX);
+            System.out.println(val(currentX));
+        }
+        return area;
+    }
+
+    public double getSlope(double x) {
+        return (val(x + deltaX) - val(x - deltaX)) / (2 * deltaX);
+    }
+
+    //returns the minimum and maximum point in a function within the domain
+    public Pair<Double, Double> findMinMax() {
+        double max = 0, min = Double.POSITIVE_INFINITY;
+        for (double x = getStartDomain(); x <= getEndDomain(); x += deltaX) {
+            max = Math.max(max, val(x));
+            min = Math.min(min, val(x));
+        }
+        return new Pair(min, max);
+    }
 }

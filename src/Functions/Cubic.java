@@ -74,30 +74,7 @@ public class Cubic extends Function {
     @Override
     public double val(double x) {
         if (undefined(x)) return Double.NaN; // returns NaN if undefined
-        return a * Math.pow(x - x1, 3) + b * Math.pow(x - x1, 2) + c * (x - x1) + d;
-    }
-
-    @Override
-    public boolean undefined(double x) {
-        if (x < getStartDomain() || x > getEndDomain()) {
-            return true;
-        }
-        return false;
-    }
-
-    @Override
-    public double getArea(double xStart, double xEnd) {
-        double deltaX = 0.01, area = 0;
-        for (double currentX = xStart; currentX <= xEnd; currentX += deltaX) {
-            area += deltaX * val(currentX);
-        }
-        return area;
-    }
-
-    @Override
-    public double getSlope(double x) {
-        double deltaX = 0.01;
-        return (val(x - deltaX) - val(x + deltaX)) / ((x - deltaX) - val(x + deltaX));
+        return this.a * Math.pow(x - this.x1, 3) + this.b * Math.pow(x - this.x1, 2) + this.c * (x - this.x1) + this.d;
     }
 
     @Override
@@ -122,31 +99,41 @@ public class Cubic extends Function {
             prevY = currentY;
         }
 
-        double xScaleYCoor = 0; //the y coordinate of the numbers on the x scale
-        //x axis is between the min and max points
-        if (0 > min && 0 < max) xScaleYCoor = max * vRatio;
-            //function is above x axis, x scale will display at the bottom of the window
-        else if (min > 0) xScaleYCoor = canvas.getHeight();
-            //function is below x axis, x scale will display at the top of the window
+        //renders the x scale
+
+        //checks if x axis is above, between, or below the function in order to find the y coordinate of the x scale
+        double xScaleYCoor = 0;
+        if (0 > min && 0 < max) {
+            xScaleYCoor = max * vRatio;
+            gc.strokeLine(0, xScaleYCoor, canvas.getWidth(), xScaleYCoor);
+        } else if (min > 0) xScaleYCoor = canvas.getHeight();
         else if (max < 0) xScaleYCoor = 0;
 
-        double xScaleXIncrememt = (canvas.getWidth() / (NUMS_ON_SCALE + 1));
-        double xScaleXValueIncrement = ((getEndDomain() - getStartDomain())/ (NUMS_ON_SCALE + 1)) * hRatio;
+        double xScaleXIncrement = ((getEndDomain() - getStartDomain()) / (NUMS_ON_SCALE + 1));
+        double xScaleScreenXIncrement = (canvas.getWidth() / (NUMS_ON_SCALE + 1));
 
-        for (double x = xScaleXValueIncrement, screenX = xScaleXIncrememt;
-             screenX <= canvas.getWidth() - xScaleXIncrememt; x += xScaleXValueIncrement, screenX += xScaleXIncrememt) {
-            gc.fillText("| " + Double.toString(Math.round(screenX)), x, xScaleYCoor);
+        for (double x = getStartDomain(), screenX = 0;
+             screenX <= canvas.getWidth() - xScaleScreenXIncrement;
+             x += xScaleXIncrement, screenX += xScaleScreenXIncrement) {
+            gc.fillText("| " + Double.toString(Math.round(x)), screenX, xScaleYCoor);
         }
 
+        //renders the y scale
+        double yScaleXCoor = 0;
+        if (0 > getStartDomain() && 0 < getEndDomain()) {
+            yScaleXCoor = Math.abs(0 - getStartDomain()) * hRatio;
+            gc.strokeLine(yScaleXCoor, 0, yScaleXCoor, canvas.getHeight());
+        } else if (getEndDomain() < 0) yScaleXCoor = canvas.getWidth() - 50; // FIX THIS
+        else if (getStartDomain() > 0) yScaleXCoor = 0;
+
+        double yScaleYIncrement = ((max - min) / (NUMS_ON_SCALE + 1));
+        double yScaleScreenYIncrement = (canvas.getHeight() / (NUMS_ON_SCALE + 1));
+
+        for (double y = max, screenY = 0;
+             screenY <= canvas.getHeight() - yScaleScreenYIncrement;
+             y -= yScaleYIncrement, screenY += yScaleScreenYIncrement) {
+            gc.fillText("– " + Double.toString(Math.round(y)), yScaleXCoor, screenY);
+        }
     }
 
-    //returns the minimum and maximum point in a function within the domain
-    protected Pair<Double, Double> findMinMax() {
-        double deltaX = 0.01, max = 0, min = Double.POSITIVE_INFINITY;
-        for (double x = getStartDomain(); x <= getEndDomain(); x += deltaX) {
-            max = Math.max(max, val(x));
-            min = Math.min(min, val(x));
-        }
-        return new Pair(min, max);
-    }
 }

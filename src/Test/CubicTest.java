@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class CubicTest {
-    Cubic cubic = new Cubic(0.35, 0.25, -0.5, -1.0,0.0);
+    Cubic cubic = new Cubic(1, 0, 0, 0,0.0);
     Cubic cubic2 = new Cubic(-0.35, -0.25, -0.5, -1.0,3);
 
     @Test

@@ -28,8 +28,10 @@ public class FunctionTester extends Application {
 		Group root = new Group();
 		Canvas canvas = new Canvas(500, 500);
 		GraphicsContext gc = canvas.getGraphicsContext2D();
-		Cubic cubic = new Cubic(1, 0, 0, 0, 0);
-		cubic.draw(canvas);
+		Cubic cubic = new Cubic(0.35, 0.25, -0.5, -1, 2);
+		Cubic c2 = new Cubic(1 ,0,0,0,0);
+		//cubic.draw(canvas);
+		c2.draw(canvas);
 		root.getChildren().add(canvas);
 		primaryStage.setScene(new Scene(root));
 		primaryStage.show();

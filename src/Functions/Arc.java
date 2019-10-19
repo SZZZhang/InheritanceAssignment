@@ -17,7 +17,15 @@ public class Arc extends Function {
 
     @Override
     public String toString() {
-        return null;
+        String equation = "sqrt(" + r + "^2 - ";
+        if(xCenter > 0) equation += "(x - " + xCenter + ")^2)";
+        else if(xCenter < 0) equation += "(x + " + Math.abs(xCenter) + ")^2)";
+        else equation += "x^2)";
+
+        if(yCenter > 0) equation += " + " + yCenter;
+        else if(yCenter < 0) equation += " - " + Math.abs(yCenter);
+
+        return equation;
     }
 
     @Override
