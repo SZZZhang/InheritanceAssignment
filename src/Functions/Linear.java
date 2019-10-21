@@ -1,7 +1,15 @@
+/*
+Program by: Shirley Zhang
+Course code: ICS4U
+Date: Oct 20th, 2019
+Instructor: Radulovic
+Assignment: Inheritance Assignment
+
+Description of Program:
+This class represents a linear function.
+*/
+
 package Functions;
-import Main.Function;
-import javafx.scene.canvas.Canvas;
-import javafx.scene.canvas.GraphicsContext;
 
 public class Linear extends Quadratic {
     private double m;

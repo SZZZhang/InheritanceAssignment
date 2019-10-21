@@ -1,10 +1,20 @@
+/*
+Program by: Shirley Zhang
+Course code: ICS4U
+Date: Oct 20th, 2019
+Instructor: Radulovic
+Assignment: Inheritance Assignment
+
+Description of Program:
+This class represents an arc function.
+*/
+
 package Functions;
 
 import Main.Function;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.paint.Color;
-import javafx.util.Pair;
 
 public class Arc extends Function {
     private double r;
@@ -35,7 +45,7 @@ public class Arc extends Function {
 
     @Override
     public boolean undefined(double x) {
-        return super.undefined(x);
+        return super.undefined(x) || (x < yCenter - r || x > yCenter + r);
     }
 
     public void draw(Canvas canvas) {
@@ -63,6 +73,6 @@ public class Arc extends Function {
             prevY = currentY;
         }
 
-        drawAxis(canvas, min, max, vRatio, hRatio);
+        drawAxes(canvas, min, max, vRatio, hRatio);
     }
 }

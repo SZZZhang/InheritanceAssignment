@@ -1,10 +1,18 @@
+/*
+Program by: Shirley Zhang
+Course code: ICS4U
+Date: Oct 20th, 2019
+Instructor: Radulovic
+Assignment: Inheritance Assignment
+
+Description of Program:
+This class represents a cubic function in the form a(x - x1)^3 + b(x - x1)^2 + c(x - x1) + d.
+It is also the parent class of the Parabola, Quadratic, and Linear functions.
+*/
+
 package Functions;
 
 import Main.Function;
-import javafx.scene.canvas.Canvas;
-import javafx.scene.canvas.GraphicsContext;
-import javafx.scene.paint.Color;
-import javafx.util.Pair;
 
 public class Cubic extends Function {
     private double a;
@@ -74,66 +82,6 @@ public class Cubic extends Function {
     @Override
     public double val(double x) {
         if (undefined(x)) return Double.NaN; // returns NaN if undefined
-        return this.a * Math.pow(x - this.x1, 3) + this.b * Math.pow(x - this.x1, 2) + this.c * (x - this.x1) + this.d;
+        return a * Math.pow(x - x1, 3) + b * Math.pow(x - x1, 2) + c * (x - x1) + d;
     }
-
-    //@Override
-    /*public void draw(Canvas canvas) {
-        double deltaX = 1;
-        GraphicsContext gc = canvas.getGraphicsContext2D();
-        gc.setStroke(Color.BLACK);
-        gc.setLineWidth(1);
-
-        //finds min max of function
-        Pair<Double, Double> minMax = findMinMax();
-        double min = minMax.getKey();
-        double max = minMax.getValue();
-
-        double hRatio = canvas.getWidth() / (getEndDomain() - getStartDomain());
-        double vRatio = canvas.getHeight() / (max - min);
-        double prevX = 0, prevY = val(getStartDomain()) * vRatio * -1 + max * vRatio;
-        for (double x = getStartDomain() + deltaX, screenX = 0; x <= getEndDomain(); x++, screenX += hRatio) {
-            double currentY = val(x) * vRatio * -1 + max * vRatio;
-            gc.strokeLine(prevX, prevY, screenX, currentY);
-            prevX = screenX;
-            prevY = currentY;
-        }
-
-        //renders the x scale
-
-        //checks if x axis is above, between, or below the function in order to find the y coordinate of the x scale
-        double xScaleYCoor = 0;
-        if (0 > min && 0 < max) {
-            xScaleYCoor = max * vRatio;
-            gc.strokeLine(0, xScaleYCoor, canvas.getWidth(), xScaleYCoor);
-        } else if (min > 0) xScaleYCoor = canvas.getHeight();
-        else if (max < 0) xScaleYCoor = 0;
-
-        double xScaleXIncrement = ((getEndDomain() - getStartDomain()) / (NUMS_ON_SCALE + 1));
-        double xScaleScreenXIncrement = (canvas.getWidth() / (NUMS_ON_SCALE + 1));
-
-        for (double x = getStartDomain(), screenX = 0;
-             screenX <= canvas.getWidth() - xScaleScreenXIncrement;
-             x += xScaleXIncrement, screenX += xScaleScreenXIncrement) {
-            gc.fillText("| " + Double.toString(Math.round(x)), screenX, xScaleYCoor);
-        }
-
-        //renders the y scale
-        double yScaleXCoor = 0;
-        if (0 > getStartDomain() && 0 < getEndDomain()) {
-            yScaleXCoor = Math.abs(0 - getStartDomain()) * hRatio;
-            gc.strokeLine(yScaleXCoor, 0, yScaleXCoor, canvas.getHeight());
-        } else if (getEndDomain() < 0) yScaleXCoor = canvas.getWidth() - 50; // FIX THIS
-        else if (getStartDomain() > 0) yScaleXCoor = 0;
-
-        double yScaleYIncrement = ((max - min) / (NUMS_ON_SCALE + 1));
-        double yScaleScreenYIncrement = (canvas.getHeight() / (NUMS_ON_SCALE + 1));
-
-        for (double y = max, screenY = 0;
-             screenY <= canvas.getHeight() - yScaleScreenYIncrement;
-             y -= yScaleYIncrement, screenY += yScaleScreenYIncrement) {
-            gc.fillText("– " + Double.toString(Math.round(y)), yScaleXCoor, screenY);
-        }
-    }*/
-
 }

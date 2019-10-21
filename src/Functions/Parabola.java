@@ -1,3 +1,14 @@
+/*
+Program by: Shirley Zhang
+Course code: ICS4U
+Date: Oct 20th, 2019
+Instructor: Radulovic
+Assignment: Inheritance Assignment
+
+Description of Program:
+This class represents a parabola.
+*/
+
 package Functions;
 
 public class Parabola extends Quadratic{

@@ -1,7 +1,15 @@
-package Functions;
+/*
+Program by: Shirley Zhang
+Course code: ICS4U
+Date: Oct 20th, 2019
+Instructor: Radulovic
+Assignment: Inheritance Assignment
 
-import Main.Function;
-import javafx.scene.canvas.GraphicsContext;
+Description of Program:
+This class represents a quadratic function.
+*/
+
+package Functions;
 
 public class Quadratic extends Cubic {
     private double a;
