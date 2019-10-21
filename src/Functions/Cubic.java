@@ -77,8 +77,8 @@ public class Cubic extends Function {
         return this.a * Math.pow(x - this.x1, 3) + this.b * Math.pow(x - this.x1, 2) + this.c * (x - this.x1) + this.d;
     }
 
-    @Override
-    public void draw(Canvas canvas) {
+    //@Override
+    /*public void draw(Canvas canvas) {
         double deltaX = 1;
         GraphicsContext gc = canvas.getGraphicsContext2D();
         gc.setStroke(Color.BLACK);
@@ -134,6 +134,6 @@ public class Cubic extends Function {
              y -= yScaleYIncrement, screenY += yScaleScreenYIncrement) {
             gc.fillText("– " + Double.toString(Math.round(y)), yScaleXCoor, screenY);
         }
-    }
+    }*/
 
 }

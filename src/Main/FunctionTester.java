@@ -1,5 +1,6 @@
 package Main;
 
+import Functions.Arc;
 import Functions.Cubic;
 import javafx.application.Application;
 import javafx.scene.Group;
@@ -30,8 +31,9 @@ public class FunctionTester extends Application {
 		GraphicsContext gc = canvas.getGraphicsContext2D();
 		Cubic cubic = new Cubic(0.35, 0.25, -0.5, -1, 2);
 		Cubic c2 = new Cubic(1 ,0,0,0,0);
+		Arc arc = new Arc(5, 0, 3);
 		//cubic.draw(canvas);
-		c2.draw(canvas);
+		arc.draw(canvas);
 		root.getChildren().add(canvas);
 		primaryStage.setScene(new Scene(root));
 		primaryStage.show();
