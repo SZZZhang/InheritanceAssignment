@@ -43,6 +43,7 @@ public abstract class Function implements Drawable, Calculations {
         setDomain(DEFAULT_START_DOMAIN, DEFAULT_END_DOMAIN);
     }
 
+    //string representation of functions
     public abstract String toString();
 
     public double getStartDomain() {
@@ -76,9 +77,7 @@ public abstract class Function implements Drawable, Calculations {
 
     //returns true if the function is undefined
     public boolean undefined(double x) {
-        if (x < getStartDomain() || x > getEndDomain()) {
-            return true;
-        }
+        if (x < getStartDomain() || x > getEndDomain()) return true;
         return false;
     }
 
@@ -144,6 +143,7 @@ public abstract class Function implements Drawable, Calculations {
     //draws x & y scales and axes
     public void drawAxes(Canvas canvas, Double min, Double max, Double vRatio, Double hRatio) {
         GraphicsContext gc = canvas.getGraphicsContext2D();
+        gc.setStroke(Color.BLACK);
 
         //renders the x scale
         //checks if x axis is above, between, or below the function in order to find the y coordinate of the x scale

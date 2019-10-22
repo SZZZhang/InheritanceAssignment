@@ -59,6 +59,7 @@ public class Arc extends Function {
         double startX = Math.max(getStartDomain(), xCenter - r);
         double endX = Math.min(getEndDomain(), xCenter + r);
 
+        //horizontal and vertical ratios for scaling: windowWidth/domain, windowHeight/range
         double hRatio = canvas.getWidth() / (getEndDomain() - getStartDomain());
         double vRatio = canvas.getHeight() / (max - min);
 

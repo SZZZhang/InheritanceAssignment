@@ -11,7 +11,7 @@ class QuadraticTest {
     @Test
     void testGetArea(){
         //assertEquals(5774.53399999984, quadratic.getArea(-20,20));
-        assertEquals((5760-128*Math.sqrt(11))/3 + 72*Math.sqrt(11), quadratic.getArea(-10, 20));
+        assertEquals((5760-128*Math.sqrt(11))/3 + 72*Math.sqrt(11), quadratic1.getArea(-10, 20));
     }
 
     @Test

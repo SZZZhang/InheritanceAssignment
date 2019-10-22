@@ -2,24 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Test/LogarithmTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/QuadraticTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/ParabolaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InheritanceAssignment/Functions/Arc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InheritanceAssignment/Functions/Arc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InheritanceAssignment/Functions/Cubic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InheritanceAssignment/Functions/Cubic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InheritanceAssignment/Functions/Linear.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InheritanceAssignment/Functions/Linear.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/InheritanceAssignment/Functions/Logarithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InheritanceAssignment/Functions/Logarithm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InheritanceAssignment/Functions/Parabola.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InheritanceAssignment/Functions/Parabola.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InheritanceAssignment/Functions/Quadratic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InheritanceAssignment/Functions/Quadratic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InheritanceAssignment/Main/Drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InheritanceAssignment/Main/Drawable.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/InheritanceAssignment/Main/Function.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InheritanceAssignment/Main/Function.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/InheritanceAssignment/Main/FunctionTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InheritanceAssignment/Main/FunctionTester.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InheritanceAssignment/Main/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InheritanceAssignment/Test/QuadraticTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InheritanceAssignment/Test/QuadraticTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Functions/Arc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Functions/Arc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Functions/Cubic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Functions/Cubic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Functions/Linear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Functions/Linear.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Functions/Logarithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Functions/Logarithm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Functions/Parabola.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Functions/Parabola.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Functions/Quadratic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Functions/Quadratic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/Calculations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Calculations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/Drawable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Drawable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/Function.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Function.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/FunctionTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/FunctionTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/QuadraticTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/QuadraticTest.java" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -76,13 +75,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main/Function.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="10" />
+            <state relative-caret-position="374">
+              <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
               <folding>
-                <element signature="e#0#6208#0" expanded="true" />
                 <element signature="imports" expanded="true" />
                 <element signature="e#1074#1075#0" expanded="true" />
                 <element signature="e#1141#1142#0" expanded="true" />
@@ -92,22 +90,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Functions/Cubic.java">
+        <entry file="file://$PROJECT_DIR$/src/Main/FunctionTester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="204">
+              <caret line="12" column="49" lean-forward="true" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main/FunctionTester.java">
+        <entry file="file://$PROJECT_DIR$/src/Test/ParabolaTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="306">
+              <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -115,21 +113,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Functions/Quadratic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+            <state>
+              <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Functions/Logarithm.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main/Calculations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="73" column="37" lean-forward="true" selection-start-line="73" selection-start-column="37" selection-end-line="73" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1345#1346#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="170">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -137,20 +131,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Functions/Arc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            <state relative-caret-position="119">
+              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Functions/Linear.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -158,8 +143,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Test/QuadraticTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="272">
+              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -168,10 +153,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Functions/Parabola.java">
+        <entry file="file://$PROJECT_DIR$/src/Test/LinearTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Test/CubicTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Test/ArcTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -216,17 +222,19 @@
         <option value="$PROJECT_DIR$/src/Functions/ArcTest.java" />
         <option value="$PROJECT_DIR$/src/Test/CubicTest.java" />
         <option value="$PROJECT_DIR$/src/Test/LogarithmTest.java" />
-        <option value="$PROJECT_DIR$/src/Main/FunctionTester.java" />
-        <option value="$PROJECT_DIR$/src/Test/QuadraticTest.java" />
-        <option value="$PROJECT_DIR$/src/Main/Function.java" />
         <option value="$PROJECT_DIR$/src/Main/Drawable.java" />
         <option value="$PROJECT_DIR$/src/Main/Calculations.java" />
         <option value="$PROJECT_DIR$/src/Functions/Cubic.java" />
         <option value="$PROJECT_DIR$/src/Functions/Linear.java" />
-        <option value="$PROJECT_DIR$/src/Functions/Parabola.java" />
         <option value="$PROJECT_DIR$/src/Functions/Quadratic.java" />
-        <option value="$PROJECT_DIR$/src/Functions/Arc.java" />
         <option value="$PROJECT_DIR$/src/Functions/Logarithm.java" />
+        <option value="$PROJECT_DIR$/src/Functions/ParabolaTest.java" />
+        <option value="$PROJECT_DIR$/src/Test/ParabolaTest.java" />
+        <option value="$PROJECT_DIR$/src/Functions/Parabola.java" />
+        <option value="$PROJECT_DIR$/src/Test/QuadraticTest.java" />
+        <option value="$PROJECT_DIR$/src/Main/Function.java" />
+        <option value="$PROJECT_DIR$/src/Functions/Arc.java" />
+        <option value="$PROJECT_DIR$/src/Main/FunctionTester.java" />
       </list>
     </option>
   </component>
@@ -244,24 +252,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="InheritanceAssignment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InheritanceAssignment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="InheritanceAssignment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InheritanceAssignment" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -277,17 +280,18 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571634454624" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571712583257" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="dynamic.classpath" value="false" />
     <property name="recentsLimit" value="5" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="Test" />
       <recent name="Functions" />
+      <recent name="Test" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -305,7 +309,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.QuadraticTest.testGetSlope">
+  <component name="RunManager" selected="Application.FunctionTester">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -360,7 +364,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogarithmTest.testVal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ParabolaTest.testToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="InheritanceAssignment" />
       <extension name="coverage">
         <pattern>
@@ -369,8 +373,28 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.LogarithmTest" />
-      <option name="METHOD_NAME" value="testVal" />
+      <option name="MAIN_CLASS_NAME" value="Test.ParabolaTest" />
+      <option name="METHOD_NAME" value="testToString" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParabolaTest.val" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="InheritanceAssignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.ParabolaTest" />
+      <option name="METHOD_NAME" value="val" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -420,26 +444,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuadraticTest.testVal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="InheritanceAssignment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.QuadraticTest" />
-      <option name="METHOD_NAME" value="testVal" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -470,20 +474,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FunctionTester" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.LogarithmTest.testVal" />
+      <item itemvalue="Application.FunctionTester" />
       <item itemvalue="JUnit.QuadraticTest.testGetArea" />
       <item itemvalue="JUnit.QuadraticTest.testGetSlope" />
-      <item itemvalue="JUnit.QuadraticTest.testVal" />
+      <item itemvalue="JUnit.ParabolaTest.testToString" />
+      <item itemvalue="JUnit.ParabolaTest.val" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.QuadraticTest.testGetSlope" />
-        <item itemvalue="JUnit.QuadraticTest.testGetArea" />
-        <item itemvalue="JUnit.QuadraticTest.testVal" />
-        <item itemvalue="JUnit.LogarithmTest.testVal" />
         <item itemvalue="Application.FunctionTester" />
+        <item itemvalue="JUnit.QuadraticTest.testGetArea" />
+        <item itemvalue="JUnit.ParabolaTest.testToString" />
+        <item itemvalue="JUnit.ParabolaTest.val" />
+        <item itemvalue="JUnit.QuadraticTest.testGetSlope" />
       </list>
     </recent_temporary>
   </component>
@@ -502,24 +506,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="QuadraticTest_testGetArea - 2019.10.21 at 00h 21m 13s.xml">
-      <configuration name="QuadraticTest.testGetArea" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QuadraticTest_testGetArea - 2019.10.21 at 00h 21m 54s.xml">
-      <configuration name="QuadraticTest.testGetArea" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QuadraticTest_testGetArea - 2019.10.21 at 00h 31m 41s.xml">
-      <configuration name="QuadraticTest.testGetArea" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QuadraticTest_testGetArea - 2019.10.21 at 00h 31m 52s.xml">
-      <configuration name="QuadraticTest.testGetArea" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QuadraticTest_testGetArea - 2019.10.21 at 00h 32m 10s.xml">
-      <configuration name="QuadraticTest.testGetArea" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QuadraticTest_testVal - 2019.10.21 at 00h 35m 00s.xml">
-      <configuration name="QuadraticTest.testVal" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="QuadraticTest_testVal - 2019.10.21 at 00h 36m 05s.xml">
       <configuration name="QuadraticTest.testVal" configurationId="JUnit" />
     </history-entry>
@@ -531,6 +517,24 @@
     </history-entry>
     <history-entry file="QuadraticTest_testGetSlope - 2019.10.21 at 00h 41m 09s.xml">
       <configuration name="QuadraticTest.testGetSlope" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParabolaTest_testToString - 2019.10.21 at 17h 44m 15s.xml">
+      <configuration name="ParabolaTest.testToString" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParabolaTest_val - 2019.10.21 at 18h 58m 53s.xml">
+      <configuration name="ParabolaTest.val" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParabolaTest_testToString - 2019.10.21 at 18h 59m 00s.xml">
+      <configuration name="ParabolaTest.testToString" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParabolaTest_testToString - 2019.10.21 at 19h 01m 12s.xml">
+      <configuration name="ParabolaTest.testToString" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuadraticTest_testGetArea - 2019.10.21 at 20h 18m 36s.xml">
+      <configuration name="QuadraticTest.testGetArea" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuadraticTest_testGetArea - 2019.10.21 at 20h 18m 46s.xml">
+      <configuration name="QuadraticTest.testGetArea" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
@@ -550,7 +554,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.20171674" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.20457797" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -664,17 +668,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/LinearTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/README (4).txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="353">
@@ -693,29 +686,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1415">
           <caret line="1" column="28" lean-forward="true" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/CubicTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/ArcTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding>
-            <element signature="e#189#190#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -738,29 +708,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main/Calculations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#454#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main/Function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="10" />
-          <folding>
-            <element signature="e#0#6208#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="e#1074#1075#0" expanded="true" />
-            <element signature="e#1141#1142#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Functions/Cubic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -768,46 +715,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main/FunctionTester.java">
+    <entry file="file://$PROJECT_DIR$/src/Functions/Logarithm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
+        <state relative-caret-position="204">
+          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Functions/Quadratic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Functions/Arc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Functions/Linear.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/QuadraticTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1278#1279#0" expanded="true" />
+            <element signature="e#1325#1326#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -819,13 +734,96 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Functions/Logarithm.java">
+    <entry file="file://$PROJECT_DIR$/src/Functions/Linear.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="73" column="37" lean-forward="true" selection-start-line="73" selection-start-column="37" selection-end-line="73" selection-end-column="37" />
+        <state relative-caret-position="204">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Functions/Arc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1345#1346#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main/Calculations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Functions/Quadratic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/ParabolaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/LinearTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/ArcTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/CubicTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/QuadraticTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main/FunctionTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="49" lean-forward="true" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1074#1075#0" expanded="true" />
+            <element signature="e#1141#1142#0" expanded="true" />
           </folding>
         </state>
       </provider>

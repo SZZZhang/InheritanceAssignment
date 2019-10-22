@@ -6,7 +6,7 @@ Instructor: Radulovic
 Assignment: Inheritance Assignment
 
 Description of Program:
-This class represents a parabola.
+This class represents a parabola in the form y = a(x - x1)^2 + b.
 */
 
 package Functions;
